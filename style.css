@@ -1,0 +1,114 @@
+.body{
+    width: 1440px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 800px;
+    margin: 50px 50px 100px 150px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.left-box{
+    width: 350px;
+    height: 500px;
+    border: solid 2px black;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 20px;
+}
+
+.left-box h1{
+    color: white;
+    margin: 20px 20px 20px 100px;
+}
+
+.results{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    line-height: 200px;
+    margin:-20px 20px 10px 80px;
+    background-color:hsla(256, 72%, 46%, 1);
+
+}
+.results h1{
+    margin:20px 10px 20px 50px;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.results p{
+    margin: -170px 20px 10px 75px ;
+    line-height: 200px;
+}
+
+
+.text-below h1{
+    font-weight: 900;
+    margin-left: 140px;
+   
+}
+.text-below p{
+    margin: 10px 20px 20px 30px ;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.right-box{
+
+    width: 350px;
+    height: 500px;
+    margin-left: -10px;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 0 0 10px  0px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.right-box input{
+    width: 200px;
+    border: solid 1px black;
+    padding:15px;
+    margin: 20px 20px 20px 60px ;
+    border: solid 1px;
+    border-radius: 10px;
+    readonly:true;
+    
+}
+
+.right-box button{
+    padding: 15px;
+    width: 230px;
+    border-radius: 30px;
+    margin-left: 60px;
+    background-color: hsl(224, 30%, 27%);
+    border: solid 0px black;
+}
+
+.right-box h2{
+    margin-left: 60px;
+}
+
+.right-box label{
+    position: relative;
+}
+
+.right-box label::before{
+    width: 200px;
+    border: solid 1px black;
+    padding:15px;
+    margin: 20px 20px 20px 60px ;
+    border: solid 1px;
+    border-radius: 10px;
+    background: url("images/icon-reaction.svg");
+}
+
+.score{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-weight: bold;
+}
