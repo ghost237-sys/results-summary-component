@@ -22,13 +22,13 @@
 
 <div class="container">
         <div class="left-box">
-          <h1> Your Result</h1>
+          <h1 id="result"> Your Result</h1>
           <div class="results">
             <h1>76</h1>
             <p>of 100</p>
           </div>
           <div class="text-below">
-            <h1>Great</h1>
+            <h1 id="great">Great</h1>
           <p>You scored higher than 65% of the people who have taken these tests.</p>
           </div>
           
@@ -36,14 +36,36 @@
 
         <div class="right-box">
           <h2>Summary</h2>
-          <label>
-            <input id="Reaction" type="text" value="Reaction" input>
-            <span class="score">80/100</span>
-          </label>
+          <div class="reaction">
+            <img src="images/icon-reaction.svg" alt="reaction">
+            <span id="reaction-text">Reaction</span>
+            <span class="black-text">80/</span><span ckass="grey">100</span>
+          </div>
+         
+
+          <div class="memory">
+            <img src="images/icon-memory.svg" alt="memory">
+            <span id="memory-text">Memory</span>
+            <span class="black-text">92/</span><span ckass="grey">100</span>
+          </div>
           
-          <input id="Memory" type="text" value="Memory 92/100" input><br>
-          <input id="Verbal" type="text" value="Verbal 61/100" input><br>
-          <input id="Visual" type="text" value="Visual 72/100" input><br>
+
+          <div class="verbal">
+            <img src="images/icon-verbal.svg" alt="verbal">
+            <span id="verbal-text">Verbal</span>
+            <span class="black-text">61/</span><span ckass="grey">100</span>
+          </div>
+          
+
+          <div class="visual">
+            <img src="images/icon-visual.svg" alt="visual">
+            <span id="visual-text">Visual</span>
+            <span class="black-text">72/</span><span ckass="grey">100</span>
+          </div>
+
+                
+
+        
           
           <button style="color:white;">Continue</button>
         </div>
@@ -51,7 +73,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Caeser Mwania</a>.
   </div>
 </body>
 </html>
